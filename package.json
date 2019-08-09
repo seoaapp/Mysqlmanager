@@ -1,5 +1,5 @@
 {
-  "name": "@seoa/mysqlmanager",
+  "name": "mysqlmanager",
   "version": "0.1.0",
   "description": "Mysql manager",
   "main": "src/db.js",
