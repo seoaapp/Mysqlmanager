@@ -1,0 +1,21 @@
+{
+  "name": "@seoa/mysqlmanager",
+  "version": "0.1.0",
+  "description": "Mysql manager",
+  "main": "src/db.js",
+  "scripts": {
+    "test": "node ./src/db"
+  },
+  "keywords": [
+    "mysql",
+    "manager"
+  ],
+  "contributors": [
+      "UnderC",
+      "ttakkku"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
