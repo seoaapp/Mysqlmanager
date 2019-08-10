@@ -1,11 +1,13 @@
 const Mysql = require('mysql')
 class DB {
-  constructor(host, user, pw, db) {
+  constructor(host, user, pw, db, port, charset) {
     this.pool = Mysql.createPool({
       host: host,
       user: user,
       password: pw,
-      database: db
+      database: db,
+      port: port || 3306,
+      charset: charset || 'utf8mb4'
     })
   }
 
